@@ -106,7 +106,14 @@ export const ContentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOp
           allFiles,
         }
 
-        const content = renderPage(cfg, slug, componentData, opts, externalResources)
+        const content = renderPage(
+          cfg,
+          slug,
+          componentData,
+          // Slim down homepage
+          slug === "index" ? Object.assign({}, opts, { beforeBody: [], right: [] }) : opts,
+          externalResources,
+        )
         const fp = await write({
           ctx,
           content,
