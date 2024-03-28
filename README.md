@@ -1,4 +1,10 @@
-# Quartz v4
+# Welcome to my corner of the internet
+
+This is a fork of [Quartz](https://quartz.jzhao.xyz/) by [Jacky Zhao](https://github.com/sponsors/jackyzha0).
+
+---
+
+## Quartz v4
 
 > “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
 
